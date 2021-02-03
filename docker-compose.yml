@@ -5,3 +5,5 @@ services:
     image: "registry.cn-hangzhou.aliyuncs.com/docker_lsn2/flask_redis:3"
   redis:
     image: "redis:alpine"
+ports:
+- "9999"
