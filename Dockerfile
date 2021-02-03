@@ -10,5 +10,5 @@ WORKDIR /code
 RUN pip install redis flask
 # CMD代表镜像启动后默认执行的命令，这里要注意CMD打上中括号等同于exec执行命令
 # 不打中括号等同于 sh -c 执行命令
-CMD ["python","app.py"]
 EXPOSE 9999
+CMD ["python","app.py"]
